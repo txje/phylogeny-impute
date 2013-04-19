@@ -1,0 +1,19 @@
+Copyright (c) 2010-2013 Jeremy Wang
+Available under an MIT License (see LICENSE)
+
+Imputation using Local Phylogeny
+
+J. Wang, F. Villena, H. Lawson, J. Cheverud,
+G. Churchill, and L. McMillan. Imputation
+of SNPs in inbred mice using local phylogeny.
+Genetics, 190(2):449–458, 2012
+
+Requires Python 2.[6+]
+
+usage: python impute.py <seqFile> <cliqueFile> <outputFile> <targetStrain>
+
+Make sure of a few things:
+1. Format of input files is what is expected (see comments in the code)
+2. targetStrain name is exactly as it appears in cliqueFile
+3. Strain names in seqFile are exactly as they appear in cliqueFile
+4. outputFile will be overwritten if it exists - don't lose anything important
